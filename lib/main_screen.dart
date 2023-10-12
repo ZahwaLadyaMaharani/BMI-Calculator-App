@@ -9,11 +9,13 @@ import 'package:url_launcher/url_launcher.dart';
 const activeColor = Color(0xff0073dd);
 const inActiveColor = Color(0xFF212121);
 
+//membuat class dasar aplikasi dan membuat tampilan yang dapat berubah.
 class MainScreen extends StatefulWidget {
   @override
   _MainScreenState createState() => _MainScreenState();
 }
 
+//class yang bertanggung jawab dengan perubahan dan pembaruan data
 class _MainScreenState extends State<MainScreen> {
   Color maleBoxColor = activeColor;
   Color femaleBoxColor = inActiveColor;

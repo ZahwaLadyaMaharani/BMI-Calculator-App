@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'main_screen.dart';
 
+//eksekusi aplikasi dengan run app.
 void main() {
   runApp(MyApp());
 }
 
+//mengatur tema, mengatur halaman, menonaktifkan banner debug
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

@@ -1,26 +1,30 @@
 import 'package:flutter/material.dart';
 
-
+//mengatur tampilan text
 const textStyle1 = TextStyle(
-  color: Color(0xFFffffff),
+  color: Color(0xFFffffff), //mengatur warna.
   fontSize: 20.0
 );
 
-const textStyle2 = TextStyle(
-  color: Color(0xFFffffff),
+const textStyle2 = TextStyle( //mengatur tampilan text
+  color: Color(0xFFffffff), //mengatur warna
   fontSize: 60.0,
   fontWeight: FontWeight.w900
 );
 
+
+//mengatur tampilan text
 const textStyle3 = TextStyle(
-  color: Color(0xFFffffff),
+  color: Color(0xFFffffff), //mengatur warna
   fontSize: 30.0,
   fontWeight: FontWeight.w900
 );
 
+
+//mengelompokkan data
 class DataContainer extends StatelessWidget {
             
-  DataContainer({required this.icon, required this.title});
+  DataContainer({required this.icon, required this.title}); //membuat konstruktor sesuai denga yang diinginkan
 
   final IconData icon;
   final String title;
